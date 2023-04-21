@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to xx 👋</h1>
+<h1 align="center">Welcome to FastAPI NLP API 👋</h1>
 <p align="center">
   <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
   <a href="https://twitter.com/braian_dev" target="_blank">
@@ -7,55 +7,59 @@
 </p>
 
 <p align="center">
-
-<img src="https://img.shields.io/badge/Made%20With-FastAPI-009688?logo=fastapi&style=for-the-badge">
-
+  <img src="https://img.shields.io/badge/Made%20With-FastAPI-009688?logo=fastapi&style=for-the-badge">
 </p>
 
-> The project is .
+> The project is an advanced NLP API that provides sentiment analysis, named entity recognition, and text summarization services. It is built using FastAPI, spaCy, and Hugging Face Transformers, delivering high-quality text processing results through a simple and efficient interface.
 
-
-### 🏠 You can Access here [App](url)
-
-### Add img at root 
 ![Preview](img.png?raw=true)
 
+<h2>Installation</h2>
 
-<h2>Required</h2>
-
-To use the app you are going to need the Node.js with NPM installed.
-You can download the latest at:
-
-https://nodejs.org/pt-br/download/
+Follow these steps to install and run the project locally:
 
 
-<h2>Installation and How to Use</h2>
-
-First clone the project.
-```
-git clone https://github.com/BraianMendes/portfolio_advanced_Netflix-React-Clone.git
-```
-
-Then you need to install the dependencies and after run the application.
+* Create a Python virtual environment (recommended):
 
 ```
-npm install
-npm start
+python -m venv venv
 ```
 
-or
+* Activate the virtual environment:
+
+On Windows:
 
 ```
-yarn install
-yarn start
+venv\Scripts\activate
 ```
 
-The command will start the react app in the localhost:3000.
+On macOS/Linux:
 
-You can access the web application in the localhost:3000.
 ```
-http://localhost:3000/
+source venv/bin/activate
 ```
+
+  * Install the dependencies:
+
+``` 
+pip install -r requirements.txt
+``` 
+
+* Start the FastAPI server:
+
+```
+uvicorn main:app --reload
+```
+
+<h2>Main Tools Used</h2>
+
+  *  FastAPI: A modern Python framework for building high-performance RESTful APIs. It was chosen for its simplicity, speed, and built-in support for data validation and interactive documentation.
+
+  *  spaCy: An advanced Python library for natural language processing. We use spaCy for the named entity recognition (NER) task due to its efficiency and accuracy in pre-trained models.
+
+  *  Hugging Face Transformers: A cutting-edge library for transformer-based language models, such as BERT, GPT-2, and others. We use Transformers for sentiment analysis and text summarization tasks, as it offers high-quality pre-trained models and easy integration.
+
+These are the main tools used in the project. They were chosen to provide an efficient and effective API service for advanced text and natural language processing.
 
 ## Author
 
