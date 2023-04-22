@@ -12,7 +12,9 @@
 
 > The project is an advanced NLP API that provides sentiment analysis, named entity recognition, and text summarization services. It is built using FastAPI, spaCy, and Hugging Face Transformers, delivering high-quality text processing results through a simple and efficient interface.
 
-![Preview](img.png?raw=true)
+<p align="center">
+  <img src="img.png" alt="Preview">
+</p>
 
 <h2>Installation</h2>
 
